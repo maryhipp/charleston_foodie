@@ -28,8 +28,5 @@ var FormView = Backbone.View.extend({
     var query = this.$('[name ="search"]').val();
     console.log(query);
     this.collection.search(query);
-    $(this.el).on('click', function() {
-      this.reset();
-    })
   }
 });
