@@ -41,20 +41,20 @@ form input {
 
 #list li {
   display: inline-block;
-  margin:20px 5px;
+  margin:30px 5px;
 }
 
 #list .restaurant-image {
   border-radius:100%;
   border: 3px black solid;
   /*position:relative;*/
-  width:200px;
+  width:160px;
 }
 
 #list a {
   color:black;
   font-family:'Overlock SC';
-  font-size:15px;
+  font-size:13px;
   text-decoration: none;
 }
 #list a:hover {
@@ -67,5 +67,5 @@ form input {
   margin-top: -15px;
   position: absolute;
   text-align: center;
-  width:200px;
+  width:160px;
 }

@@ -27,3 +27,4 @@ gem 'yelp', require: 'yelp'
 gem 'pry-rails'
 
 
+gem 'rails_12factor', group: :production
