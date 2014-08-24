@@ -14,7 +14,7 @@ var RestaurantsCollection = Backbone.Collection.extend({
   searchTerm: '',
 
   url: function() {
-    return 'http://young-island-3325.herokuapp.com/?q=' + this.searchTerm;
+    return 'http://localhost:3000/?q=' + this.searchTerm;
   },
 
   search: function(query) {
