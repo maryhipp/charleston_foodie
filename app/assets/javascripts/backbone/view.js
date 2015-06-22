@@ -7,10 +7,9 @@ var ListView = Backbone.View.extend({
   },
 
   render: function(restaurant) {
-    console.log('list render');
     var html = '';
     this.collection.each(function(restaurant) {
-      html += '<li><a href=' + restaurant.get('url') + ' target=_blank><img src=' + restaurant.get('image_url') + ' class="restaurant-image"></a><div class="restaurant-info"><a href=' + restaurant.get('url') + ' target=_blank>' + restaurant.get('name') + ' </a><br><img src=' + restaurant.get('rating_img_url_small') + '></div></li>';
+      html += '<div><a href=' + restaurant.get('url') + ' target=_blank><img src=' + restaurant.get('image_url') + ' class="restaurant-image"></a><div class="restaurant-info"><a href=' + restaurant.get('url') + ' target=_blank>' + restaurant.get('name') + ' </a><br><img src=' + restaurant.get('rating_img_url_small') + '></div></div>';
     })
     this.$el.html(html);
   }

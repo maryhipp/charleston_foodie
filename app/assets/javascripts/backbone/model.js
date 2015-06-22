@@ -1,7 +1,7 @@
 var Restaurant = Backbone.Model.extend({
   defaults: {
     name: '',
-    rating_img_url_small: '',
+    rating_img_url_large: '',
     image_url: '',
     url: '',
     neighborhoods: ''
